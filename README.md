@@ -2,7 +2,7 @@
 
 ## Python üzerinde yaptığım çalışmalar:
 
-[AudioBook](./AudioBook.py) : text dosyasını sesli olarak okur
+[AudioBook](./AudioBook.py) : Text dosyasını sesli olarak okur
 
 [C2F](./C2F.py): Santigrat-Fahreniet Dönüşümü yapar
 
@@ -12,21 +12,21 @@
 
 [QRCode](./QRCode.py) : Girilen link için QR kod oluşturur
 
-[askhesapla](./askhesapla.py) : girilen bay ve bayan isimlerine göre uyumunuzu test eder
+[askhesapla](./askhesapla.py) : Girilen bay ve bayan isimlerine göre uyumunuzu test eder
 
 [dec2roman](./dec2roman.py) : Onluk sayı sistemini Romen rakamına çevirir
 
-[dil_algila](./dil_algila.py) : girilen metnin hangi dilde olduğunu test eder
+[dil_algila](./dil_algila.py) : Girilen metnin hangi dilde olduğunu test eder
 
-[dosya_uzantısına_gore_klasorleme](./dosya_uzantısına_gore_klasorleme.py) : dosya uzantısına göre klasör oluşturup dosyalarınızı klasör içine taşır
+[dosya_uzantısına_gore_klasorleme](./dosya_uzantısına_gore_klasorleme.py) : Dosya uzantısına göre klasör oluşturup dosyalarınızı klasör içine taşır.
 
-[images2PDF](./images2PDF.py) : resim dosyalarını PDF olarak birleştirir
+[images2PDF](./images2PDF.py) : Resim dosyalarını PDF olarak birleştirir
 
 [kacsaniyeyasadin](./kacsaniyeyasadin.py) : Doğum tarihinize göre kaç saniye yaşadığınızı gösterir
 
 [nasa_pic_of_day](./nasa_pic_of_day.py) : NASA Web sitesinden günün resmini çekerek masaüstü arka planı yapar
 
-[parolaolusturucu](./parolaolusturucu.py) : istediğiniz uzunlukta parola üretir
+[parolaolusturucu](./parolaolusturucu.py) : İstediğiniz uzunlukta parola üretir
 
 [pcinfo](./pcinfo.py) : Bilgisayarınız hakkında detaylı bilgi verir
 
@@ -42,7 +42,7 @@
 
 [vki](./vki.py) : Vücut Kitle İndeksi Hesaplama
 
-[youtube_downloader](./youtube_downloader2.py): Youtube linki üzerinden video indirir
+[youtube_downloader](./youtube_download.py): Youtube linki üzerinden video indirir
 
 
 
