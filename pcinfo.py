@@ -8,16 +8,16 @@ import cpuinfo
 cpu=cpuinfo.cpu.info[0]["ProcessorNameString"]
 
 s="SİSTEM BİLGİLERİ\n"
-s+=(f"PC Adı: {platform.node()}")+"\n"
-s+=(f"Makine Tipi: {platform.machine()}")+"\n"
-s+=(f"CPU : {platform.processor()}")+"\n"
-s+=(f"CPU : {cpu}")+"\n"
-s+=(f"Platform : {platform.platform()}")+"\n"
-s+=(f"OS : {platform.system()}")+"\n"
-s+=(f"OS Rel.: {platform.release()}")+"\n"
-s+=(f"OS Vers: {platform.version()}")+"\n"
-s+=(f"Arch: {platform.architecture()}")+"\n"
-s+=(f"RAM : {round(psutil.virtual_memory().total/(1024*1024*1024), 2)} GB")+"\n"
+s+=(f"PC Adı\t\t: {platform.node()}")+"\n"
+s+=(f"Makine Tipi\t: {platform.machine()}")+"\n"
+s+=(f"CPU \t\t: {platform.processor()}")+"\n"
+s+=(f"CPU \t\t: {cpu}")+"\n"
+s+=(f"Platform \t: {platform.platform()}")+"\n"
+s+=(f"OS \t\t: {platform.system()}")+"\n"
+s+=(f"OS Rel.\t\t: {platform.release()}")+"\n"
+s+=(f"OS Vers\t\t: {platform.version()}")+"\n"
+s+=(f"Arch\t\t: {platform.architecture()}")+"\n"
+s+=(f"RAM \t\t: {round(psutil.virtual_memory().total/(1024*1024*1024), 2)} GB")+"\n"
 #Available RAM
 print(s)
 
@@ -37,4 +37,4 @@ for n in range(26):
         total,used,free=shutil.disk_usage(drives[n]+":")
         
 #        return free_bytes.value
-        print (drives[n], "Diski \t:","Toplam Alan :",(total//(2**30)),"GB ","Boş Alan : ",(free//(2**30))," GB")                                   
+        print (drives[n], "Diski \t:","Toplam Alan :",(total//(2**30)),"GB\t","Boş Alan : ",(free//(2**30))," GB")                                   
