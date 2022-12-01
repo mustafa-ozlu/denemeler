@@ -1,0 +1,32 @@
+Decipher the Information in URLs
+A programmer can encode a lot of information in a URL. Your web scraping journey will be much easier if you first become familiar with how URLs work and what they’re made of. For example, you might find yourself on a details page that has the following URL:
+
+https://realpython.github.io/fake-jobs/jobs/senior-python-developer-0.html
+You can deconstruct the above URL into two main parts:
+
+The base URL represents the path to the search functionality of the website. In the example above, the base URL is https://realpython.github.io/fake-jobs/.
+The specific site location that ends with .html is the path to the job description’s unique resource.
+Any job posted on this website will use the same base URL. However, the unique resources’ location will be different depending on what specific job posting you’re viewing.
+
+URLs can hold more information than just the location of a file. Some websites use query parameters to encode values that you submit when performing a search. You can think of them as query strings that you send to the database to retrieve specific records.
+
+You’ll find query parameters at the end of a URL. For example, if you go to Indeed and search for “software developer” in “Australia” through their search bar, you’ll see that the URL changes to include these values as query parameters:
+
+https://au.indeed.com/jobs?q=software+developer&l=Australia
+The query parameters in this URL are ?q=software+developer&l=Australia. Query parameters consist of three parts:
+
+Start: The beginning of the query parameters is denoted by a question mark (?).
+Information: The pieces of information constituting one query parameter are encoded in key-value pairs, where related keys and values are joined together by an equals sign (key=value).
+Separator: Every URL can have multiple query parameters, separated by an ampersand symbol (&).
+Equipped with this information, you can pick apart the URL’s query parameters into two key-value pairs:
+
+q=software+developer selects the type of job.
+l=Australia selects the location of the job.
+Try to change the search parameters and observe how that affects your URL. Go ahead and enter new values in the search bar up top:
+
+Search interface of the Indeed job board
+Change these values to observe the changes in the URL.
+Next, try to change the values directly in your URL. See what happens when you paste the following URL into your browser’s address bar:
+
+https://au.indeed.com/jobs?q=developer&l=perth
+If you change and submit the values in the website’s search box, then it’ll be directly reflected in the URL’s query parameters and vice versa. If you change either of them, then you’ll see different results on the website.
