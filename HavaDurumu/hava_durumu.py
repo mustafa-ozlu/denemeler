@@ -80,7 +80,7 @@ def get_current_climate_icon():
 def submit_search():
     global response
     url = ' http://api.openweathermap.org/data/2.5/weather'
-    api_key = '6127b0e5bba71ee6af34dcb909a5bec9'
+    api_key = 'YOUR_OPENWEATHERMAP_APIKEY'
     #  get: () -> str, to convert it into the string
     queryy = {"q":cityy_name.get(),'units':'metric','appid':api_key ,'lang':'tr'}
     # calling the api using request method in request module
