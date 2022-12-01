@@ -1,0 +1,2 @@
+# denemeler
+Python üzerine denemeler
