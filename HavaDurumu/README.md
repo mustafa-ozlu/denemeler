@@ -5,7 +5,7 @@
  OpenWeatherMap API Key ile istediğiniz bir yerin hava durumunu görüntüleyebilirsiniz.
 
 ### Örnek Ekran Görüntüleri:
-![image1](./ss/ss1.png) ![image2](./ss/ss2.png)
+![image1](./ss/ss1.PNG) ![image2](./ss/ss2.PNG)
 
 ## import ettiğim kütüphaneler: 
 ```python
